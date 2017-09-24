@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>My Profile</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/project.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <!-- profile -->
+      <div class="col-lg-offset-1 col-lg-7 col-md-8 col-sm-12 col-xs-12">
+
+        <!-- summary profile -->
+        <div class="col-lg-12 box-it">
+          <div class="row cover-photo">
+          </div>
+          <div class="row">
+            <div class="padding-0px center-it">
+              <img class="profile-picture" alt="pict not found">
+            </div>
+          </div>
+          <div class="center-it">
+            <h3><span id="profile-name"></span></h3>
+            <p><span id="profile-summary"></span></p>
+            <div class="" id="profile-additional">
+              <p><strong>KEEPOO!!</strong></p>
+              <p>GitHub: <a href="https://github.com/adrianaden"> adrianaden</a></p>
+            </div>
+            <div class="more">
+              <strong><span id="show-more">show more</span></strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- detail profile -->
+        <div class="col-lg-12 margin-12px padding-0px">
+
+          <div class="alert alert-info" role="alert">
+            <b>Info!</b> This is Hacktiv8 Night Class Project
+          </div>
+
+          <!-- detail skill -->
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Skills</h3>
+            </div>
+            <div class="panel-body">
+              <span id="profile-skills"></span>
+            </div>
+          </div>
+
+          <!-- detail hobby -->
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Hobbies</h3>
+            </div>
+            <div class="panel-body">
+              <span id="profile-hobbies"></span>
+            </div>
+          </div>
+
+          <!-- detail fav web site -->
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">Favorite Website</h3>
+            </div>
+            <div class="panel-body">
+              <span id="profile-favorites"></span>
+            </div>
+          </div>
+
+          <!-- comments -->
+          <div class="panel panel-default">
+            <div class="panel-body">
+              <p><strong>Comment:</strong></p>
+              <div id="comment"> </div>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Write your comment..." id="input-comment">
+                <span class="input-group-btn">
+                  <button class="btn btn-default" type="button"  id="submit-comment">Submit!</button>
+                </span>
+              </div>
+            </div>
+          </div>
+
+        </div> <!-- detail profile -->
+      </div> <!-- profile -->
+
+      <!-- friends list -->
+      <div class="col-lg-4 col-md-3 col-sm-12 col-xs-12">
+        <div class="col-lg-12 margin-12px">
+          <div class="panel panel-primary">
+            <div class="panel-heading">
+              <h3 class="panel-title">My Friends</h3>
+            </div>
+            <div class="panel-body">
+              <div id="friends">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- friends list -->
+
+    </div>
+  </div>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="lib/project.js"></script>
+</body>
+
+</html>

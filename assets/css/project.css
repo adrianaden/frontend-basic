@@ -1,0 +1,76 @@
+body{
+  background-color: #f5f5f5
+}
+.more {
+  margin: 0px;
+  background-color: #f5f5f5
+}
+.box-it{
+  margin: 12px;
+  background-color: red;
+  background-color: #ffffff;
+  border-width: 0.5px;
+  border-color: #fbe9e9;
+  border-radius: 3px;
+  border-style: solid;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.07);
+}
+
+.cover-photo{
+  height: 150px;
+  background-color: white;
+}
+
+.profile-picture{
+  height: 150px;
+  position: relative;
+  margin: -75px auto 0px auto;
+  border-radius: 60%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.friend-picture{
+  width: 70px;
+  position: relative;
+  border-radius: 60%;
+}
+.friend {
+  padding-top: 5px;
+}
+
+.friends-box {
+  position: fixed;
+  width: auto;
+}
+.padding-0px{
+  padding: 0px
+}
+.padding-12px{
+  padding: 12px
+}
+.position-fixed {
+  position: fixed;
+  width: auto;
+}
+.margin-12px{
+  margin: 12px
+}
+.center-it{
+  text-align: center;
+}
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
